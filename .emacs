@@ -73,6 +73,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(blink-cursor-mode nil)
  '(compilation-message-face (quote default))
  '(custom-enabled-themes (quote (leuven)))
  '(custom-menu-sort-alphabetically nil)
@@ -81,6 +82,7 @@
     ("a041a61c0387c57bb65150f002862ebcfe41135a3e3425268de24200b82d6ec9" default)))
  '(default-input-method "czech-qwerty")
  '(fci-rule-color "#49483E")
+ '(global-visual-line-mode t)
  '(highlight-changes-colors ("#FD5FF0" "#AE81FF"))
  '(highlight-tail-colors
    (("#49483E" . 0)
@@ -94,6 +96,7 @@
  '(inhibit-startup-screen t)
  '(magit-diff-use-overlays nil)
  '(menu-bar-mode nil)
+ '(org-startup-indented t)
  '(org-use-speed-commands t)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
