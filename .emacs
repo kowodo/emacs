@@ -10,7 +10,12 @@
 ;;
 ;; org mode
 ;;
-(setq org-catch-invisible-edits 'error) ;now I can't edit invisible text. C-c C-r (org-reveal) will display where the point is if it is buried in invisible text to allow editing again. 
+(setq org-catch-invisible-edits 'error) ;now I can't edit invisible text. C-c C-r (org-reveal) will display where the point is if it is buried in invisible text to allow editing again.
+; UTF-8 as the default coding systerm for all org files:
+(setq org-export-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+(set-charset-priority 'unicode)
+(setq default-process-coding-system '(utf-8-unix . utf-8-unix))
 
 ;;
 ;; helm mode
