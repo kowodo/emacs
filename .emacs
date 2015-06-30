@@ -8,6 +8,11 @@
 
 
 ;;
+;; org mode
+;;
+(setq org-catch-invisible-edits 'error) ;now I can't edit invisible text. C-c C-r (org-reveal) will display where the point is if it is buried in invisible text to allow editing again. 
+
+;;
 ;; helm mode
 ;;
 (require 'helm)
