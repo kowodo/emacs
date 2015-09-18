@@ -58,3 +58,4 @@ git fetch emacs
 git diff master emacs/master
 git remote pull master
 git remote pull master emacs
+sudo apt-get upgrade
